@@ -1,1 +1,3 @@
 # Anaway
+"diverifikasi.<br>- Komit tersebut belum ditandatangani dan pengirim komit telah mengaktifkan mode pengawasan.<br>- Komit tersebut belum ditandatangani dan penulis telah mengaktifkan mode pengawasan.<br> |"
+ https://docs.github.com/api/article/body?pathname=/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits#:~:text=diverifikasi.%3Cbr%3E%2D%20Komit%20tersebut%20belum%20ditandatangani%20dan%20pengirim%20komit%20telah%20mengaktifkan%20mode%20pengawasan.%3Cbr%3E%2D%20Komit%20tersebut%20belum%20ditandatangani%20dan%20penulis%20telah%20mengaktifkan%20mode%20pengawasan.%3Cbr%3E%20%7C
