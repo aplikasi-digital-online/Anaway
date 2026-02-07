@@ -3,7 +3,24 @@
 name: CI
 https://github.com/aplikasi-digital-online/anaway.editorial-/commits/metaQuin
 # Controls when the workflow will run
-on:
+on:            - nama: Menyiapkan lingkungan Go
+  penggunaan: actions/setup-go@v6.2.0
+  dengan:
+    # Versi Go yang akan diunduh (jika diperlukan) dan digunakan. Mendukung spesifikasi dan rentang semver. Pastikan untuk mengapit opsi ini dalam tanda kutip tunggal.
+    go-version: # opsional
+    # Jalur ke file go.mod, go.work, .go-version, atau .tool-versions.
+    go-version-file: # opsional
+    # Atur opsi ini ke true jika Anda ingin tindakan tersebut selalu memeriksa versi terbaru yang tersedia yang memenuhi spesifikasi versi.
+    check-latest: # opsional
+    # Digunakan untuk mengambil distribusi Go dari go-versions. Karena ada nilai default, ini biasanya tidak diberikan oleh pengguna. Saat menjalankan tindakan ini di github.com, nilai default sudah cukup. Saat dijalankan di GHES, Anda dapat memberikan token akses pribadi untuk github.com jika Anda mengalami pembatasan laju permintaan (rate limiting).
+    token: # opsional, defaultnya adalah ${{ github.server_url == 'https://github.com' && github.token || '' }}
+    # Digunakan untuk menentukan apakah caching diperlukan. Atur ke true jika Anda ingin mengaktifkan caching.
+    cache: # opsional, defaultnya adalah true
+    # Digunakan untuk menentukan jalur ke file dependensi - go.sum
+    cache-dependency-path: # opsional
+    # Arsitektur target yang akan digunakan Go. Contoh: x86, x64. Secara default akan menggunakan arsitektur sistem.
+    arsitektur: # opsional
+          
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "metaQuin]
